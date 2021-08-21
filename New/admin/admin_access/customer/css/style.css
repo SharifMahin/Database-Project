@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: futura,helvetica,arial;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../clogin.jpg);
+	height: 200vh;
+	background-size: cover;
+		background-position: center;
+}
+	.title h1{
+		border: 2px  solid #0B11B5;
+			 color: #001280;
+			 font-size: 45px;
+			  }
+
+.logo img{
+		float: left;
+		margin-left:65px;
+		margin-top: 22px;
+		width: 200px;
+		height: auto;
+		}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color:#DB0000;
+	opacity: 0.9;
+}
+nav ul{
+	float: left;
+	margin-left:180px;
+}
+nav ul li{
+	
+	list-style-type: none;
+	display: inline-block;
+	line-height: 70px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding:5px 20px;
+	border: 2px solid transparent;
+	transition: .7s all;
+}
+nav ul li a:hover{
+	background-color: #9400D3;
+	color:#DB0000;
+	
+	}
+
+	nav ul li.active a{
+	background-color: #9400D3;
+	color:#DB0000;
+	
+	}
+ 
+	 
+		 .button1{
+			 position: absolute;
+		top: 5%;
+		left: 83%;
+		transform: translate(-50%,-50%);
+		 }
+		 .btn1{
+			border: 1px  solid #0B11B5;
+			padding: 10px 30px ;
+			color: #fff;
+			text-decoration: none;
+			 
+	}
+	.btn1:hover{
+	background-color: #9400D3;
+	
+	
+	}
+ 
